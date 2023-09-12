@@ -61,7 +61,7 @@ button {
   padding: 0;
   border: none;
 
-  width: 170px;
+  width: 140px;
   height: 40px;
 }
 
@@ -195,4 +195,51 @@ button {
 
 .card div {
   text-align: center;
+}
+
+.section-3 {
+  background-color: #e5e7eb;
+  padding-block: 100px 100px;
+  padding-inline: clamp(16px, 25vw, 300px);
+}
+
+.section-3 .section {
+  gap: 16px;
+}
+
+.quote-sayer {
+  align-self: flex-end;
+}
+
+.section-4 {
+  background-color: white;
+  padding-block: 100px 100px;
+  padding-inline: clamp(16px, 14vw, 300px);
+}
+
+.cta {
+  padding-block: 45px;
+  padding-inline: 126px;
+  border-radius: 12px;
+
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cta__left {
+  flex: 1;
+}
+
+.section-5 {
+  background-color: hsl(215, 28%, 17%);
+  padding-block: 30px;
+  padding-inline: clamp(16px, 14vw, 300px);
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  align-self: center;
 }
