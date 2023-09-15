@@ -78,7 +78,7 @@ a:visited {
   background-size: cover;
 }
 
-button {
+.button {
   width: 170px;
   height: 40px;
   border-radius: 8px;
@@ -87,7 +87,7 @@ button {
   font-family: inherit;
 }
 
-.button--hero {
+.button--cta {
   background-color: var(--cta);
   font-size: 1rem;
   font-weight: 600;
@@ -187,4 +187,51 @@ button {
   font-size: 1.125rem;
   font-weight: 600;
   align-self: flex-end;
+}
+
+.section--4 {
+  background-color: var(--text-light);
+  padding-block: 45px 60px;
+  padding-inline: clamp(100px, 15vw, 150px);
+}
+
+.section--4 .wrapper {
+  max-width: 70ch;
+}
+
+.section--4 .cta {
+  background-color: var(--cta);
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 36px;
+  padding-inline: 60px;
+  border-radius: 8px;
+}
+
+.button--cta--transparent {
+  background-color: transparent;
+  border: 2px solid var(--text-lighter);
+}
+
+.section--4 .cta__left-big {
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+
+.section--4 .cta__left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.section--5 {
+  background-color: var(--text-dark);
+  padding-block: 36px 36px;
+}
+
+.section--5 .footer {
+  display: flex;
+  justify-content: center;
 }
