@@ -1,7 +1,7 @@
 :root {
   --text-dark: #38a3a5;
   --cta: #57cc99;
-  --text-light: #57cc99;
+  --text-light: #a9ffb3;
   --text-lighter: #c7f9cc;
 }
 
@@ -106,4 +106,56 @@ button {
   gap: 60px;
   max-width: 1100px;
   margin: auto;
+}
+
+.section--2 {
+  background-color: var(--text-light);
+  padding-block: 45px 60px;
+  padding-inline: clamp(16px, 12vw, 181px);
+}
+
+.section--2__heading {
+  color: var(--text-dark);
+}
+
+.section--2__heading {
+  display: flex;
+  justify-content: center;
+}
+
+.section--2__cards {
+  display: flex;
+  gap: 36px;
+}
+
+.section--2__cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  color: var(--text-dark);
+  font-weight: 200;
+}
+
+.section--2__cards .img {
+  border-radius: 8px;
+  width: 140px;
+  height: 140px;
+}
+
+.section--2__cards .card p {
+  text-align: center;
+}
+
+.section--2__cards .card .img--1 {
+  background-color: #38a3a5;
+}
+.section--2__cards .card .img--2 {
+  background-color: #38a581;
+}
+.section--2__cards .card .img--3 {
+  background-color: #38a581;
+}
+.section--2__cards .card .img--4 {
+  background-color: #38a557;
 }
